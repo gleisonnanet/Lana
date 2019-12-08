@@ -1,4 +1,4 @@
-<?php namespace gframework\lchatbot\Servers;
+<?php namespace gframework\lana\Servers;
 
 /**
  * Created by PhpStorm.

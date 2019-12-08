@@ -1,6 +1,6 @@
 <?php
 
-namespace gframework\lchatbot\Models;
+namespace gframework\lana\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

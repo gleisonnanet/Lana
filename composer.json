@@ -1,5 +1,5 @@
 {
-  "name": "gframework/lchatbot",
+  "name": "gframework/lana",
   "description": "chatbot for laravel",
   "license": "MIT",
   "authors": [
@@ -9,12 +9,13 @@
     }
   ],
  
+
 "minimum-stability": "dev",
 "prefer-stable" : true,
     
   "autoload": {
     "psr-4": {
-      "gframework\\lchatbot\\": "src/"
+      "gframework\\lana\\": "src/"
     }
   }
 

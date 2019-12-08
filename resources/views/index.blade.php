@@ -1,5 +1,6 @@
 ﻿<html>
 <head>
+
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <link rel="shortcut icon" href="favicon.ico"/>
     <title>AIML 2.5 Web Test</title>

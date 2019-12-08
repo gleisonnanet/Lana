@@ -1,13 +1,12 @@
 <?php
 
-namespace gframework\lchatbot;
+namespace gframework\lana;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\Application as LaravelApplication;
 
 class ChatBotServiceProvider extends ServiceProvider
 {
-
 
 	/**
 	 * Bootstrap the application services.

@@ -1,8 +1,7 @@
-<?php namespace gframework\lchatbot\Servers;
+<?php namespace gframework\lana\Servers;
 
 
-use gframework\lchatbot\Models\ChatBotData;
-
+use gframework\lana\Models\ChatBotData;
 
 /**
  * Create a multple storage for "temp" data

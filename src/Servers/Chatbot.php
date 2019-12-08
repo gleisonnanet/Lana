@@ -1,11 +1,11 @@
-<?php namespace gframework\lchatbot\Servers;
+<?php namespace gframework\lana\Servers;
 
 
-use gframework\lchatbot\Models\ChatBotLog;
-use gframework\lchatbot\Servers\Humans\User;
-use gframework\lchatbot\Servers\Humans\Bot;
-use gframework\lchatbot\Servers\Parser;
-use gframework\lchatbot\Servers\Context;
+use gframework\lana\Models\ChatBotLog;
+use gframework\lana\Servers\Humans\User;
+use gframework\lana\Servers\Humans\Bot;
+use gframework\lana\Servers\Parser;
+use gframework\lana\Servers\Context;
 
 //require_once "Humans/User.php";
 //require_once "Humans/Bot.php";

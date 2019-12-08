@@ -1,5 +1,4 @@
 <?php
-
 return [
 	"chatbotUrl"    => 'chatbot',
 	"chatbotApiUrl" => 'chatbot/api',

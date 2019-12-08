@@ -1,6 +1,6 @@
-<?php namespace gframework\lchatbot\Servers\Humans;
+<?php namespace gframework\lana\Servers\Humans;
 
-use gframework\lchatbot\Servers\Humans\Human;
+use gframework\lana\Servers\Humans\Human;
 
 class User extends Human
 {

@@ -1,9 +1,9 @@
-<?php namespace gframework\lchatbot\Servers\Humans;
+<?php namespace gframework\lana\Servers\Humans;
 
 
 //require_once dirname(__FILE__) . "/../Database/Connection.php";
 
-use gframework\lchatbot\Models\ChatBotProperty;
+use gframework\lana\Models\ChatBotProperty;
 
 class Human
 {

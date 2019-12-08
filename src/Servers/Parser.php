@@ -1,10 +1,9 @@
-<?php namespace gframework\lchatbot\Servers;
+<?php namespace gframework\lana\Servers;
 
-use gframework\lchatbot\Models\ChatBotData;
-use gframework\lchatbot\Servers\Context;
-
-use gframework\lchatbot\Servers\Humans\User;
-use gframework\lchatbot\Servers\Humans\Bot;
+use gframework\lana\Models\ChatBotData;
+use gframework\lana\Servers\Context;
+use gframework\lana\Servers\Humans\User;
+use gframework\lana\Servers\Humans\Bot;
 
 use DOMElement;
 

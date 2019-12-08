@@ -1,6 +1,6 @@
 <?php
 
-namespace gframework\lchatbot\Requests;
+namespace gframework\lana\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

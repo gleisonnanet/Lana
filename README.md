@@ -1,11 +1,10 @@
 
 ## 0. Instalação
 
-composer require gframework/lchatbot
+composer require gframework/lana
 ## 1. Configuração
 
-
-Adicionar  `gframework\lchatbot\ChatBotServiceProvider::class,` Para config/app.php `providers`  
+Adicionar  `gframework\lana\ChatBotServiceProvider::class,` Para config/app.php `providers`  
 
 
 ## 2. Postar
