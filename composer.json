@@ -1,0 +1,21 @@
+{
+  "name": "gframework/lchatbot",
+  "description": "chatbot for laravel",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gleison",
+      "email": "gleisonnanet@gmail.com"
+    }
+  ],
+ 
+"minimum-stability": "dev",
+"prefer-stable" : true,
+    
+  "autoload": {
+    "psr-4": {
+      "gframework\\lchatbot\\": "src/"
+    }
+  }
+
+}
