@@ -1,11 +1,14 @@
 <?php
 
 namespace gframework\lana\Controllers;
-
-use App\Http\Controllers\BaseController as Controller;
+//use App\Http\Controllers\BaseController as Controller;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+
+// use App\Http\Requests\Request;
 use gframework\lana\Requests\ChatBotApiRequest;
 use gframework\lana\Servers\Chatbot;
+
 
 class ChatBotController extends Controller
 {
