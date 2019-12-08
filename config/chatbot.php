@@ -1,13 +1,13 @@
 <?php
 return [
-	"chatbotUrl"    => 'chatbot',
-	"chatbotApiUrl" => 'chatbot/api',
+	"chatbotUrl"    => 'lana',
+	"chatbotApiUrl" => 'lana/api',
 
 	"connectionInfo" => array(
 		"host"   => "127.0.0.1",
 		"user"   => "homestead",
-		"pass"   => "secret",
-		"dbName" => "chatbot"
+		"pass"   => "",
+		"dbName" => "aiml"
 	),
 
 	"parserInfo" => array(
@@ -15,7 +15,7 @@ return [
 	),
 
 	"botInfo" => array(
-		'name'    => "botName",
+		'name'    => "Lana",
 		'age'     => "1",
 		'owner'   => "GFRAMEWORK",
 		'website' => "github.com/gleisonnanet/lchatboot",

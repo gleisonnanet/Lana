@@ -11,7 +11,7 @@
         $(document).ready(function () {
 
             // api
-            var webServiceUrl = window.location.href + '/{{config('chatbot.chatbotApiUrl','api')}}';
+            var webServiceUrl = window.location.href + '{{config('chatbot.chatbotApiUrl','api')}}';
 
             console.log(webServiceUrl);
 
@@ -118,7 +118,7 @@
         <br>
         <br>
         <div class="chatBox">
-            welcome , i am chatbot ...
+          Oi Meu nome é lana  sou a cudadora do beepi você tem que ensinalo a falar ?
         </div>
         <div>
             <br>

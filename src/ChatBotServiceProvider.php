@@ -2,6 +2,7 @@
 
 namespace gframework\lana;
 
+
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\Application as LaravelApplication;
 
@@ -21,7 +22,7 @@ class ChatBotServiceProvider extends ServiceProvider
 		$this->loadViewsFrom(__DIR__ . "/../resources/views", 'chatbot');
 
 		$this->loadRoutesFrom(__DIR__ . '/routes.php');
-		
+
 		$this->publishes([
 			__DIR__ . '/../config/chatbot.php' => config_path('chatbot.php')
 		], 'config');

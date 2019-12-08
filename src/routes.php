@@ -3,9 +3,9 @@
 
 Route::group(['namespace' => 'gframework\lana\Controllers', 'middleware' => 'web'], function () {
 
-	Route::get(env('chatbotUrl', 'chatbot'), 'ChatBotController@index');
+	Route::get(env('chatbotUrl', 'lana'), 'ChatBotController@index');
 
-	Route::get(env('chatbotApiUrl', 'chatbot/api'), 'ChatBotController@api');
+	Route::get(env('chatbotApiUrl', 'lana/api'), 'ChatBotController@api');
 
 });
 

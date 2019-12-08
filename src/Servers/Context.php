@@ -20,7 +20,9 @@ class Context
 
 	static function getAimlString($user, $bot, $input)
 	{
-		$fileFullName = storage_path(self::$_config['parserInfo']['aimlDir']) . '/chatbot.aiml';
+        $fileFullName = storage_path(self::$_config['parserInfo']['aimlDir']) . '/chatbot.aiml';
+
+
 		if (!file_exists($fileFullName)) {
 			throw new \Exception("AIML file not found in : " . $fileFullName);
 		}

@@ -46,8 +46,14 @@ class Chatbot
 	 */
 	function talk($userInput)
 	{
-		logger("chatbot talk ...\n");
-		$user = $this->getUser($this->_unique);
+        logger("chatbot talk ...\n");
+
+
+        $user = $this->getUser($this->_unique);
+
+
+
+
 		if ($this->_config['multiChatbot']) {
 			$bot = $this->getBot($this->_unique);
 		} else {
